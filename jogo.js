@@ -128,7 +128,7 @@ if(direction === "right"){
     player.style.transform = "scaleX(-1)";
 }
     
-    if(direction === "up") y -= 15;
+    if(direction === "up") y -= 15;e
     if(direction === "down") y += 15;
     if(direction === "left") x -= 15;
     if(direction === "right") x += 15;
@@ -146,7 +146,7 @@ if(direction === "right"){
         score++;
         scoreText.textContent = score;
 
-        if(score >= 1){
+        if(score >= 10){
     quiz.style.display = "flex";
     currentStar.remove();
     return;
