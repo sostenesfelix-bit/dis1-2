@@ -12,3 +12,15 @@ function animacao() {
     }, 2000);
 
 }
+function animacao() {
+
+    const img = document.getElementById("figurinha");
+
+    img.classList.remove("animar");
+    void img.offsetWidth;
+    img.classList.add("animar");
+
+    setTimeout(() => {
+        window.location.href = "pergunta.html";
+    }, 2000);
+}
