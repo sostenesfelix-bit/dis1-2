@@ -1,4 +1,4 @@
-function animacaojoo() {
+function animacaojogo() {
 
     const img = document.getElementById("figurinha");
 
